@@ -1,0 +1,102 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutContact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.smartkindergarten.smartkindergarten.Fragment.ContactNavFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageViewMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about_me_profile" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Up-work Freelancer"
+            android:textColor="@color/Upwork_one"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textviewworkdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Android Developer And Excel Worker"
+            android:textColor="@color/Upwork_two"
+            android:textSize="15dp" />
+
+        <TableRow
+            android:id="@+id/socialmediarow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <com.shaishavgandhi.loginbuttons.FacebookButton
+                android:id="@+id/buttonfacebook"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginRight="30dp"
+                app:iconSize="30dp"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="75dp" />
+
+            <com.shaishavgandhi.loginbuttons.TwitterButton
+                android:id="@+id/buttontwitter"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:iconSize="30dp"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="75dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/socialmediarow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="25dp"
+            android:paddingBottom="0dp">
+
+            <com.shaishavgandhi.loginbuttons.LinkedInButton
+                android:id="@+id/buttonlinkedin"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginRight="30dp"
+                app:iconSize="30dp"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="75dp" />
+
+            <com.shaishavgandhi.loginbuttons.BaseButton
+                android:id="@+id/buttonbase"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/upwork_image"
+                app:iconSize="30dp"
+                app:roundedCorner="true"
+                app:roundedCornerRadius="75dp" />
+
+        </TableRow>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

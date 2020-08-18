@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Smart Kindergarten</string>
+    <string name="title_activity_benglia_acitivity">Benglia </string>
+    <string name="title_activity_english_acitivity">English </string>
+    <string name="title_activity_capital_letter">CapitalLetterActivity</string>
+    <string name="title_activity_nav_about">About</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="app_url">https://play.google.com/store/apps/details?id=com.smartkindergarten.smartkindergarten</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click_a">Click A</string>
+    <string name="upload_header_demo">Upload Poem</string>
+    <string name="upload_title_hint">Enter Title</string>
+    <string name="upload_author_hint">Enter Author Name</string>
+    <string name="upload_content_hint">Your Content Here</string>
+    <string name="upload_button_text">Upload</string>
+    <string name="content_list_header_text">Poems</string>
+    <string name="english_lessons_spinner_text">Lessons</string>
+    <string name="bengali_lessons_spinner_text">পাঠ</string>
+
+    <string name="bengali_upload_header">নতুন</string>
+    <string name="bengali_title_hint">শিরোনাম দিন</string>
+    <string name="bengali_author_hint">লেখকের নাম দিন</string>
+    <string name="bengali_content_hint">বিষয়বস্তু দিন</string>
+    <string name="bengali_publish_button_text">প্রকাশ করুন</string>
+    <string name="bengali_title_error">শিরোনাম খালি হতে পারবে না!</string>
+    <string name="bengali_author_error">লেখকের নাম খালি হতে পারবে না!</string>
+    <string name="bengali_content_error">বিষয়বস্তু খালি হতে পারবে না!</string>
+    <string-array name="bengali_upload_texts">
+        <item>@string/bengali_upload_header</item>
+        <item>@string/bengali_title_hint</item>
+        <item>@string/bengali_author_hint</item>
+        <item>@string/bengali_content_hint</item>
+        <item>@string/bengali_publish_button_text</item>
+        <item>@string/bengali_title_error</item>
+        <item>@string/bengali_author_error</item>
+        <item>@string/bengali_content_error</item>
+    </string-array>
+
+    <string name="english_upload_header">Publish</string>
+    <string name="english_title_hint">Enter Title</string>
+    <string name="english_author_hint">Enter Author Name</string>
+    <string name="english_content_hint">Your Content Here</string>
+    <string name="english_publish_button_text">Publish</string>
+    <string name="english_title_error">Title must not be empty!</string>
+    <string name="english_author_error">Author name must not be empty!</string>
+    <string name="english_content_error">Content must not be empty!</string>
+    <string-array name="english_upload_texts">
+        <item>@string/english_upload_header</item>
+        <item>@string/english_title_hint</item>
+        <item>@string/english_author_hint</item>
+        <item>@string/english_content_hint</item>
+        <item>@string/english_publish_button_text</item>
+        <item>@string/english_title_error</item>
+        <item>@string/english_author_error</item>
+        <item>@string/english_content_error</item>
+    </string-array>
+</resources>

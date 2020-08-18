@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/backgroundone"
+    tools:context=".UploadActivity">
+
+    <TextView
+        android:id="@+id/upload_header_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/upload_header_demo"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:background="@drawable/rounded_button"/>
+
+    <EditText
+        android:id="@+id/content_title_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:hint="@string/upload_title_hint"
+        android:textColor="@color/md_green_300"
+        android:textSize="22sp"
+        android:autofillHints="title"
+        android:inputType="textPersonName"
+        android:background="@drawable/upload_et_background"/>
+
+    <EditText
+        android:id="@+id/content_author_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:hint="@string/upload_author_hint"
+        android:textColor="@color/md_green_300"
+        android:textSize="22sp"
+        android:autofillHints="title"
+        android:inputType="textPersonName"
+        android:background="@drawable/upload_et_background"/>
+
+    <EditText
+        android:id="@+id/content_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:layout_weight="20"
+        android:gravity="top"
+        android:hint="@string/upload_content_hint"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:autofillHints="title"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:background="@drawable/upload_et_background"/>
+
+    <Button
+        android:id="@+id/upload_BT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="@string/upload_button_text"
+        android:textSize="25sp"
+        android:textColor="@color/md_white_1000"
+        android:background="@drawable/upload_bt_background"/>
+</LinearLayout>

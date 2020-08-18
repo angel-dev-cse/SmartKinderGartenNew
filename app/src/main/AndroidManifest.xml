@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartkindergarten.smartkindergarten">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ContentViewActivity"></activity>
+        <activity android:name=".ContentListActivity"></activity>
+        <activity android:name=".UploadActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".EnglishActivity"
+            android:label="@string/title_activity_english_acitivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".BengliaAcitivity"
+            android:label="@string/title_activity_benglia_acitivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".spinnerAlpha.CapitalLetterAcitivityNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".spinnerAlpha.SmallLetterAcitivityNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".spinnerAlpha.NumberAcitivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".spinnerAlpha.FullImageDesAcitivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".spinnerAlpha.Benglia.ConstantAcitivityBenglia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".spinnerAlpha.Benglia.VowelAcitivityBenglia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".spinnerAlpha.Benglia.NumberActivityBenglia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityCapital"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".TestButtonActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivitySmall"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityNumber"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivitySpellNumber"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityCorrect"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivitySpellWord"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityVowelBenglia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityConstantBenglia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityNumberlBenglia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityNumberSpellBenglia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".Test.TestListActivityGame"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" />
+        <activity
+            android:name=".MainActivityOption"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Test.SmallActivityGame"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeForOther" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7812114439452130~1092416248" />
+    </application>
+
+</manifest>

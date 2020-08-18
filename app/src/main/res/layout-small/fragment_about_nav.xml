@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smartkindergarten.smartkindergarten.Fragment.AboutNavFragment"
+    android:theme="@style/AppThemeForOther"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="10dp">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/smartkindergarten_circle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Kindergarten"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColorHighlight="@color/md_teal_A700"
+        android:textColor="@color/primaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version:  TREE 1.0.6"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        android:textColor="@color/md_amber_600"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created By: Rabib"
+        android:textSize="12dp"
+        android:textColor="@color/md_blue_grey_500"/>
+</LinearLayout>

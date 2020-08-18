@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_teal_900"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutSetting">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textSize="30dp"
+        android:layout_marginRight="2dp"
+        android:id="@+id/popupCancel"
+        android:src="@android:drawable/ic_delete"/>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:orientation="horizontal"
+      android:padding="@dimen/fab_margin"
+      android:gravity="center">
+
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound:"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+
+      <ToggleButton
+          android:id="@+id/toggleButtonSetting"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginLeft="@dimen/fab_margin"
+          android:textOn="ON"
+          android:textOff="OFF" />
+
+      <ImageView
+          android:layout_width="10dp"
+          android:layout_height="200dp"
+          android:src="@drawable/about_me_profile"
+          android:visibility="invisible"/>
+
+
+  </LinearLayout>
+</LinearLayout>

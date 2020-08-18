@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "540820902089",
+    "firebase_url": "https://smartkindergartennew-ca1a2.firebaseio.com",
+    "project_id": "smartkindergartennew-ca1a2",
+    "storage_bucket": "smartkindergartennew-ca1a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540820902089:android:92f2a5400c229d4aa43d18",
+        "android_client_info": {
+          "package_name": "com.smartkindergarten.smartkindergarten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540820902089-mq0u3eemb440fb98j5m6u1ic9tptrbuk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartkindergarten.smartkindergarten",
+            "certificate_hash": "61767e22ca04eb47799c648f68569f1c088fcfd3"
+          }
+        },
+        {
+          "client_id": "540820902089-i2k6e9g3ke5j80jmedvo1mu63b14eqnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1lSEfGhR0wZsKy19leMq6E06HkRwrYfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540820902089-i2k6e9g3ke5j80jmedvo1mu63b14eqnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
